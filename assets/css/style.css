@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+    background-color: darkgrey;
+    line-height: 150%;
+}
+
+h1, footer {
+    text-align: center;
+}
+
+h1 + p {
+    text-align: center;
+    color: white;
+}
+
+section header {
+    border: solid 2px white;
+    border-radius: 10px;
+    font-size: 150%;
+    font-weight: bolder;
+ }
+
+.container {
+    position: relative;
+}
+
+.card {
+    border: dashed 2px white;
+    margin: 10px 10px 30px 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.card header {
+    position: absolute;
+    top: -20px;
+}
+
+.area {
+    background: linear-gradient(#e66465, #9198e5);
+}
